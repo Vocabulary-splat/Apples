@@ -1,7 +1,9 @@
 The Apples of our eyes: Foodish
 Lawrence, Laura, and Mason: devs
 Lawrence is the guy who submits stuff
-https://github.com/surhud004/Foodish#readme
+https://foodish-api.com/
+&
+https://github.com/Seggenz/Foodish
 The plan: Make a website about the food images API Lawrnece found.
 1. home: links to everything
 2. A gallery of the groups favorite images
