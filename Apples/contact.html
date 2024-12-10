@@ -1,41 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>History</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-  <div class="containter">
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="content.html">Our Fav Images</a>
-      <a href="history.html">History</a>
-      <a href="facts.html">Data</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-    <div class="content">
-  <div class="container">
+  <body>
+    <div class="containter">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="content.html">Our Fav Images</a>
+        <a href="history.html">History</a>
+        <a href="facts.html">Data</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="content">
         <h1>Contact Us</h1>
-        <form action="https://example.com/submit-form" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your full name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your email address" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="Write your message here..." rows="6" required></textarea>
-            
-            <button type="submit">Submit</button>
-        </form>
-        
-    </div>
-  </div>
-</body>
+        <p>
+          &emsp;&emsp;Your input is very important to us. Leave a message alon
+          with your contact information in the form below and we will get back
+          to you within a week.
+        </p>
+        <br />
+        <form action="thanks.html" method="get">
+          <div>
+            <label for="fullName">Name:</label>
+            <input type="text" id="fullName" name="fullName" required />
+          </div>
 
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+          </div>
+
+          <div>
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" />
+          </div>
+
+          <div>
+            <label for="contact">Preferred Method of Contact:</label>
+            <input type="radio" name="contact" id="email" />
+            <label for="email">Email</label>
+            <input type="radio" name="contact" id="phone" />
+            <label for="phone">Phone</label>
+          </div>
+
+          <div>
+            <label for="comment">Comments:</label>
+            <textarea name="comment" id="comment" cols="40" rows="2"></textarea>
+          </div>
+
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
