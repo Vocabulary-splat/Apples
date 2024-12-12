@@ -22,7 +22,7 @@ for (let i = 0; i < bookDocs.docs.length; i++) {
 
 async function addBook() {
     const bookName = prompt("Toppings:");
-    const yearPublished = prompt("Sides: ");
+    const yearPublished = prompt("Quantity:");
 
     const booksCollection = collection(db, "books");
 
