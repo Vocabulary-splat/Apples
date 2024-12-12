@@ -38,5 +38,15 @@ async function addBook() {
 }
 
 document.querySelector(".addFoodButton").onclick = addBook;
+document.querySelector(".addFoodButton1").onclick = addBook;
+document.querySelector(".addFoodButton2").onclick = addBook;
+document.querySelector(".addFoodButton3").onclick = addBook;
+document.querySelector(".addFoodButton4").onclick = addBook;
+document.querySelector(".addFoodButton5").onclick = addBook;
+document.querySelector(".addFoodButton6").onclick = addBook;
+document.querySelector(".addFoodButton7").onclick = addBook;
+document.querySelector(".addFoodButton8").onclick = addBook;
+document.querySelector(".addFoodButton9").onclick = addBook;
+document.querySelector(".addFoodButton10").onclick = addBook;
 
 getBooks();
